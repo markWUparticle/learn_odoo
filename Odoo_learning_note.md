@@ -1,24 +1,3 @@
-中文社区：http://odoo.net.cn/category/19/odoo-%E5%9F%B9%E8%AE%AD
-
-开发文档：http://www.odoo.com/documentation/10.0/index.html
-
-使用文档：http://www.odoo.com/documentation/user/10.0/index.html
-
-odoo 10 开发教程 https://www.kancloud.cn/hx78/odoo_10/416215#Odoo_18
-
-odoo 10 学习笔记 http://www.cnblogs.com/qjtjh/category/1146375.html
-
-Odoo学习专栏  https://zhuanlan.zhihu.com/80serp
-
-
-
-主要补充：
-
-- linux下的环境搭建
-- odoo 前端网页开发 
-
-
-
 学习日记：
 
 - 了解了odoo系统结构、可以做哪些开发、模块的开发流程
