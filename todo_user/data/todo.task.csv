@@ -1,0 +1,4 @@
+id,name,user_id/id,date_deadline
+todo_task_a,"install Odoo","base.user_root","2017-02-01"
+todo_task_b,"Create dev database","base.user_root",""
+

@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Multiuser To-Do",
-
+    'name': "Accessdata Export ",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
 
-    'description': 'Extend the To-Do app to multiuser.',
+    'description': """
+       将模型访问权限生成对应表达规则
+    """,
 
-    'author': "mark",
-    'website': "http://www.yourcompany.com",
+    'author': "MARK",
+    'website': "",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -19,15 +20,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['todo_app','mail'],
+    'depends': ['base'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/data_views.xml',
         'views/templates.xml',
-        'data/todo.task.csv',
-        'data/todo_data.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
