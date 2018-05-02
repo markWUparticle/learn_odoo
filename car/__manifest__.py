@@ -1,17 +1,20 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Accessdata Export",
+    'name': "Car",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-       将模型访问权限生成对应表达规则
+        Long description of module's purpose
     """,
 
+    'application': True,
     'author': "MARK",
-    'website': "",
+
+
+    'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -25,8 +28,9 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/data_views.xml',
+
         'views/templates.xml',
+        'views/res_car_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

@@ -1,0 +1,36 @@
+<odoo>
+  <data>
+
+    <record id="view_form_res_car" model="ir.ui.view">
+      <field name="name">res.car.form</field>
+        <field name="model">res.car</field>
+        <field name="arch" type="xml">
+            <form string="窗体名称">
+
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+      <!--窗体事件  查询  search graph,gantt-->
+      <record id="action_res_car" model="ir.actions.act_window">
+          <field name="name">res.car.actions</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="res_model">res.car</field>
+          <field name="view_type">form</field>
+          <field name="view_mode">tree,form</field>
+          <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                    creat car mannager
+              </p>
+          </field>
+      </record>
+
+      <menuitem name="车辆管理" id="menu_res_car" action="action_res_car" sequence="1"/>
+  </data>
+</odoo>

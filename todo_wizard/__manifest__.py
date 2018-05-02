@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Accessdata Export",
+    'name': "todo_wizard",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-       将模型访问权限生成对应表达规则
+        Long description of module's purpose
     """,
 
-    'author': "MARK",
-    'website': "",
+    'author': "My Company",
+    'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -19,14 +19,15 @@
     'category': 'Uncategorized',
     'version': '0.1',
 
+    'depends': ['todo_user'],
     # any module necessary for this one to work correctly
-    'depends': ['base'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/data_views.xml',
+        'views/views.xml',
         'views/templates.xml',
+        'views/todo_wizard_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
